@@ -1,12 +1,9 @@
-class Ruby
+require 'nokogiri'
+require 'pry'
+require 'open-uri'
 
-    def call
-        start
-    end
+require_relative "./ruby_interview/cli"
+require_relative "./ruby_interview/question"
+require_relative "./ruby_interview/list"
+require_relative "./ruby_interview/answers"
 
-
-    def start 
-        puts "hello"
-    end
-
-end
